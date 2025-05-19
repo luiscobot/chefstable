@@ -16,6 +16,9 @@ function App() {
 
   function addIngredient(formData) {
     const newIngredient = formData.get("ingredient");
+    if (!newIngredient) {
+      return;
+    }
     setIngredients((prevIngredients) => [...prevIngredients, newIngredient]);
   }
 

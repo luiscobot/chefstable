@@ -3,7 +3,8 @@ function Ingredients(props) {
     <div className="flex w-3xl items-start gap-6">
       <div className="flex shrink grow basis-1/2 flex-col gap-3 rounded-xl bg-slate-100 p-6">
         <p className="text-neutral-500 text-xs uppercase">
-          <span className="pr-2 text-red-700">―</span>Add Ingredients
+          <span className="pr-2 text-red-700">―</span>
+          Add Ingredients
           <span className="pl-2 text-red-700">―</span>
         </p>
 
